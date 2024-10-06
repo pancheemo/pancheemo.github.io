@@ -3,6 +3,7 @@
 @import 'footer';
 @import 'general';
 
+
 .header {
     background-image: url(../img/wallpaper.png);
     background-size: cover;
