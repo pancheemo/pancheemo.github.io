@@ -1,0 +1,43 @@
+// Estilos del footer
+footer {
+    background-color: $footer-bg-color;
+    color: $footer-text-color;
+    padding: 20px;
+
+    nav {
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+
+            .nav-item {
+                margin: 0 10px;
+
+                a {
+                    color: $footer-text-color;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+        a {
+            color: $footer-text-color;
+            margin: 0 10px;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
